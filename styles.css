@@ -1,0 +1,81 @@
+body {
+    background-color: #212121;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    background: white;
+    width: 600px;
+    margin: 50px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 11px 8px 15px 13px;
+    font-family: Roboto;
+    margin: 15px;
+}
+
+.logohtml {
+    margin-top: 12px;
+}
+.rigoberto {
+    flex: 10;
+    margin-left: 12px;
+}
+
+.trespuntos {
+    text-align: end;
+    margin-top: 10px;
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.post-body {
+    font-family: Roboto;
+    margin: 0px 15px 15px 15px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fa-regular.fa-bookmark.fa-2xl {
+    text-align: end;
+    width: 70%;
+}
+
+.logohtml:hover {
+    color: #ff5700;
+}
+
+.trespuntos:hover {
+    color: grey;
+}
+
+.fa-regular.fa-heart.fa-2xl:hover {
+    color: #ff0000;
+}
+
+.fa-regular.fa-comment.fa-2xl:hover {
+    color: #0096ff;
+}
+
+.fa-regular.fa-paper-plane.fa-2xl:hover {
+    color: #ffc000;
+}
+
+.fa-regular.fa-bookmark.fa-2xl:hover {
+    color: #9c00ff;
+}
