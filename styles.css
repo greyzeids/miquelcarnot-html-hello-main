@@ -4,21 +4,19 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .post {
     background: white;
     width: 600px;
     margin: 50px;
+    font-family: Roboto;
 }
 
 .post-header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 11px 8px 15px 13px;
-    font-family: Roboto;
-    margin: 15px;
 }
 
 .logohtml {
@@ -39,13 +37,12 @@ body {
 }
 
 .post-body {
-    font-family: Roboto;
     margin: 0px 15px 15px 15px;
 }
 
 .post-icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
